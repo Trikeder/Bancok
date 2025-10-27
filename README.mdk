@@ -1,0 +1,13 @@
+# bancok
+
+Plataforma financiera digital para transferencias P2P, pagos y gestión multi-moneda.
+
+## Configuración
+1. Copia `.env.example` a `.env` y configura las variables.
+2. Ejecuta `docker-compose up -d` para iniciar los servicios.
+3. Desarrolla los microservicios en la carpeta `services/`.
+
+## Estructura
+- `api-gateway/`: Gateway de la API.
+- `services/`: Microservicios (auth, wallets, transactions).
+- `shared/`: Código compartido (database, types, utils).
